@@ -1430,6 +1430,11 @@ tr:hover > td,
 	background-color: #d1eeff
 }
 
+.table-condensed tr:hover > td,
+.taskrow:hover > td {
+	background-color: inherit;
+}
+
 /* 
 ———————————————————————————————————————————————————————————
 	Map link edits 
