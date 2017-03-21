@@ -1,0 +1,63 @@
+body {
+  font-family: "Roboto";
+  font-size: 14px;
+}
+/* positioning adjustments for my injected logo */
+.aui-header .aui-header-logo img {
+  max-height: 24px;
+  padding: 4px 0;
+}
+/* give issue rows a little room to breathe */
+#issuetable > tbody > tr > td {
+  padding: 15px 9px 15px;
+}
+/* tone down the color on links */
+#issuetable td, #issuetable td a, 
+/* for split view */
+.issue-list > li .splitview-issue-link {
+  color: #777;
+}
+/* beef up the issue title size */
+#issuetable td.summary > p > a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+/* for split view */
+.issue-list > li .splitview-issue-link .issue-link-summary {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  white-space: unset;
+  text-overflow: unset;
+}
+/* downplay the issue key label */
+#issuetable td.issuekey > a,
+/* for split view */
+.issue-link-key {
+  font-size: 12px;
+  letter-spacing: .6px;
+}
+
+/* size down Epic links */
+td.customfield_10008 > a {
+  font-size: 12px;
+}
+
+/* Task detail page clean up */
+#summary-val.editable-field {
+  padding: 18px 0 18px 5px;
+  font-weight: 700;
+}
+input#summary {
+  font-size: 24px;
+  font-weight: 700;
+}
+#description-val > .user-content-block {
+  background-color: #e2f2fe;
+  font-size: 18px;
+  padding: 18px;
+}
+#description-val > .user-content-block p {
+  font-size: 18px;
+}

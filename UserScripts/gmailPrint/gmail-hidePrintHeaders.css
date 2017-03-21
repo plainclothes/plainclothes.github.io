@@ -1,0 +1,8 @@
+.bodycontainer > table:nth-child(1), 
+.bodycontainer > hr:nth-child(2), 
+.maincontent > table:nth-child(1), 
+.maincontent > hr:nth-child(2), 
+.message > tbody:nth-child(1) > tr:nth-child(1), 
+.message > tbody:nth-child(1) > tr:nth-child(2) {
+  display: none;
+}

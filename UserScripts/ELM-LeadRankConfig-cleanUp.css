@@ -1,0 +1,77 @@
+/* Mo betta font */
+*, input, select {
+  font-size: 14px;
+  font-family: 'Source Sans Pro';
+}
+input {
+  font-size: 14px!important;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 3px;
+  transition: all 240ms ease-in-out;
+}
+input:focus {
+  background-color: #C5DDFF;
+  box-shadow: 0 0 3px rgba(0,0,0,.24) inset;
+  border-color: #777;
+}
+/* Weird bottom border implementation on the table header */
+.dxrpHLE, .dxrpHeader, .dxrpHRE {
+  border-bottom: medium none !important;
+}
+/* Bring the tables into the 21st century */
+table, td, tr { 
+  border-collapse: collapse;
+  border-color: transparent;
+  color: #332;
+}
+#ctl00_Content_Main_ASPxRoundPanel1_Panel1 td {
+  padding: 9px 6px;
+}
+/* Added the .tableTitle class to the headings */
+tr.tableTitle {
+  border-bottom: solid 1px #fff;
+  padding-top: 18px;
+}
+tr.tableTitle > td {
+  padding: 12px 0 18px!important;
+}
+tr.tableTitle > td strong {
+  font-weight: 700;
+  font-size: 16px !important;
+}
+/* Save button */
+#ctl00_Content_Main_ASPxRoundPanel1_cmdSave {
+  width: auto!important;
+  height: auto!important;
+  margin: 24px 0 18px;
+}
+/* log in page */
+#ctl00_Content_Main_ASPxRoundPanel1_cmdLogin {
+  margin-top: 18px;
+}
+.dxbButton div.dxb {
+  width: auto!important;
+  height: auto!important;
+  padding: 0;
+}
+/* dxbButton is on the log in page */
+.dxbButton, #ctl00_Content_Main_ASPxRoundPanel1_Panel1 td#ctl00_Content_Main_ASPxRoundPanel1_cmdSave_B {
+  margin-top: 12px;
+  padding: 9px 18px;
+  border-radius: 4px;
+  border: medium none;
+  background: none no-repeat #004B5D;
+  color: #fff;
+  transition: all 240ms ease-in-out;
+}
+#ctl00_Content_Main_ASPxRoundPanel1_Panel1 td#ctl00_Content_Main_ASPxRoundPanel1_cmdSave_B:hover, .dxbButton:hover {
+  background-color: #70A0A7;
+  box-shadow: 0 0 4px rgba(0,0,0,.6) inset;
+}
+#ctl00_Content_Main_ASPxRoundPanel1_cmdSave_CD {
+  padding: 0;
+}
+#ctl00_Content_Main_ASPxRoundPanel1_cmdSave_CD > span, .dxbButton span {
+  color: inherit!important;
+}

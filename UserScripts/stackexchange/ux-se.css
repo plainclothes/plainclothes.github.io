@@ -1,0 +1,12 @@
+/*
+  =================================================================
+  Global
+  =================================================================
+*/
+
+#hlogo a {
+  height: 42px;
+  top: 2px;
+  background-image: url("https://dl.dropboxusercontent.com/u/14684724/UserScripts/stackexchange/ux-face--tag-line.svg");
+  background-repeat: no-repeat;
+}

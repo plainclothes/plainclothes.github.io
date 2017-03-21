@@ -1,0 +1,14 @@
+body,
+#boardItem .comments .comment-list .comment p.comment-text {
+  font-size: 14px;
+  line-height: 1.3;
+  color: #000;
+}
+
+/* expand text input for comments */
+#boardItem .comments .comment-form .comment-textarea-wrapper {
+  height: 275px;
+}
+#boardItem .comments .comment-form textarea {
+  height: 248px;
+}

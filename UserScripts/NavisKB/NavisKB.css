@@ -1,0 +1,24 @@
+* {
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+body {
+  font-size: 16px;
+}
+div.content {
+  color: #776;
+}
+div.content img {
+  width: 100%;
+  height: auto;
+  border: 0 solid;
+}
+h2, h3 {
+  color: #332;
+}
+h2{
+  font-size: 1.3em;
+}
+h3 {
+  font-size: 1em;
+  font-weight: 700;
+}

@@ -1,0 +1,133 @@
+/*
+  =================================================================
+  Global
+  =================================================================
+*/
+
+body {
+  font-family: 'Source Sans Pro';
+}
+
+.topbar {
+  background-color: #000c33;
+}
+
+.topbar .topbar-links .icon-flag .edit-count {
+  background-color: #c00;
+}
+
+/* fade back the sidebar until hover */
+#sidebar {
+  opacity: .12;
+  transition: all 360ms ease-in-out;
+}
+#sidebar:hover {
+  opacity: 1;
+}
+
+/* change the goofy inset shadow on keyboard selected entries */
+.question-summary.keyboard-selected,
+.question.keyboard-selected,
+.answer.keyboard-selected {
+  box-shadow: 0 0 18px rgba(0, 0, 0, .18) inset;
+}
+
+.nav a {
+  transition: all ease-in-out 180ms;
+}
+
+.nav a:hover {
+  color: #afeeff;
+}
+
+.askquestion ul li a, 
+.askquestion ul li.youarehere a {
+  background-color: #afeeff;
+  text-shadow: none;
+  color: #000;
+  box-shadow: 0 2px 0px rgba(0,0,0,.6);
+  transition: all ease-in-out 240ms;
+}
+
+.askquestion ul li a:hover, 
+.askquestion ul li.youarehere a:hover {
+  background-color: #75e2ff;
+  box-shadow: 0 2px 12px rgba(0,0,0,.72);
+}
+
+/*
+  =================================================================
+  Question list
+  =================================================================
+*/
+
+/* give the questions a little breathing room in the list */
+.question-summary {
+  padding: 24px 0;
+}
+
+/* beef up the question text in the main list */
+.summary h3 a {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #000;
+  transition: all ease-in-out 240ms;
+}
+.summary h3 {
+  padding-bottom: 6px;
+}
+.summary h3 a:after {
+  content: " →";
+  opacity: 0;
+  color: #fff;
+  transition: all ease-in-out 180ms;
+}
+.summary h3 a:hover:after {
+  opacity: 1;
+  color: #000;
+}
+
+/* clearly differentiate visited questions */
+.summary h3 a:visited {
+  color: #bbb;
+}
+
+.summary h3 a:hover {
+  color: #000;
+  background-color: #afeeff;
+}
+
+/* fade back the question stats until hover or keyboard focus */
+.question-summary .cp,
+.question-summary .tags,
+.question-summary .started {
+  opacity: .42;
+  transition: all 240ms ease-in-out;
+}
+.question-summary:hover .cp,
+.question-summary.keyboard-selected .cp,
+.question-summary:hover .tags,
+.question-summary.keyboard-selected .tags,
+.question-summary:hover .started,
+.question-summary.keyboard-selected .started {
+  opacity: 1;
+}
+
+/*
+  =================================================================
+  Question page
+  =================================================================
+*/
+
+/* make the question more prominent */
+#question-header .question-hyperlink {
+  font-size: 30px;
+  font-weight: 400;
+  color: #000;
+}
+
+#question-header {
+  margin-bottom: 36px;
+  padding: 12px 0 18px;
+}

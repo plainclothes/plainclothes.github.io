@@ -1,0 +1,204 @@
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.26;
+}
+
+* {
+  transition: all ease-in-out 240ms 0s;
+}
+
+/* 
+  ========================================================================
+  boards menu 
+  ========================================================================
+*/
+
+.boards-drawer-header {
+  background: #000 none repeat scroll 0% 0%;
+  color: #fff;
+}
+
+.boards-drawer-pinned {
+  z-index: 11;
+}
+
+.boards-drawer {
+  background: #333 none repeat scroll 0% 0%;
+  box-shadow: 0 0 12px rgba(0,0,0,.96);
+  border-right: 1px solid #444;
+}
+
+.boards-drawer input.js-search-boards {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: medium none;
+  font-size: 13px;
+  height: 30px; 
+  opacity: 1;
+}
+
+.boards-drawer input.js-search-boards::-moz-placeholder {
+  color: rgba(255, 255, 255, .5);
+  opacity: 1;
+}
+
+div.js-board-drawer-boards > div > div > div {
+  border-top: 1px solid rgba(255, 255, 255, .18);
+}
+
+div.js-board-drawer-boards > div > div > div:first-of-type {
+  border-top: medium none;
+}
+
+.compact-board-tile-link-options-star.icon-star-active {
+    color: rgba(242, 213, 0, .42);
+}
+
+.compact-board-tile.selected .compact-board-tile-link-options-star.icon-star-active {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* board color thumbnail */
+.compact-board-tile-link-thumbnail {
+  display: none;
+}
+
+.compact-board-tile-background {
+  background: transparent none !important;
+}
+
+.compact-board-tile-fade {
+  background: rgba(91, 211, 255, 0) none repeat scroll 0% 0%;
+}
+
+.compact-board-tile.selected .compact-board-tile-fade {
+  background: rgba(91, 211, 255, .9) none repeat scroll 0% 0%;
+}
+
+.compact-board-tile-link-text-name {
+  color: #bbb;
+  font-weight: 500;
+}
+
+.selected .compact-board-tile-link-text-name {
+  color: #111;
+}
+
+.compact-board-tile-link-text-sub-name {
+  color: #777;
+}
+
+/* 
+  ========================================================================
+  header 
+  ========================================================================
+*/
+
+.body-board-view #header {
+  background: #222 none repeat scroll 0% 0%;
+  font-size: 14px;
+  padding: 12px;
+  border-bottom: 1px solid #404040
+}
+
+.header-btn {
+  background: rgba(255, 255, 255, 0.12) none repeat scroll 0% 0%;
+  color: #ccc;
+  font-weight: 400;
+}
+
+.header-logo, .header-user {
+  top: 12px; 
+}
+
+/* light icons, header */
+.icon-lg.light, .icon-lg.light-hover:hover, 
+.icon-sm.light, .icon-sm.light-hover:hover, 
+.light-hover:hover .icon-lg, 
+.light-hover:hover .icon-sm {
+  color: #aaa;
+}
+
+/* 
+  ========================================================================
+  board 
+  ========================================================================
+*/
+
+/* icons on the board */
+.board-main-content .icon-lg, 
+.board-main-content .icon-sm {
+  color: #009dd6;
+}
+
+.board-main-content {
+  padding: 12px 48px;
+  background-color: #000;
+}
+
+/* star icon next to board name */
+.icon-star.board-header-btn-icon {
+  padding-left: 0;
+}
+
+/* 
+  ========================================================================
+  lists 
+  ========================================================================
+*/
+
+.list-header {
+  background-color: #5cd3ff;
+  border-radius: 3px 3px 0 0;
+  margin-bottom: 12px;
+}
+
+.list-header-name {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #000;
+}
+
+/* add a card link */
+.open-card-composer {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: .6px;
+  color: #888;
+  padding: 9px 12px;
+}
+
+.open-card-composer:hover {
+  background-color: #a0e1fa;
+  color: #000;
+  text-decoration: none;
+}
+
+
+/* 
+  ========================================================================
+  cards 
+  ========================================================================
+*/
+
+.list-cards {
+  margin: 0px 6px;
+  padding: 0px 6px;
+}
+
+.list-card {
+  border-bottom: 2px solid #CCC;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 9px;
+}
+
+.list-card.active-card {
+  background-color: #ffef75;
+  border-bottom-color: #999;
+}
+
+.list-card.active-card a {
+  color: #222;
+}

@@ -1,0 +1,61 @@
+body, p,
+.full-width-header .header-name,
+.details-pane-title .header-name,
+.itemRowView-potToken {
+  font-family: "Roboto";
+}
+/* hide the add team members prompt */
+.navigationDockTeamView-inviteAdTop {
+  display: none;
+}
+/* navigation drawer */
+#navigation_dock,
+.navigationDockTeamView--expanded,
+.navigationDockTeamBrowserView--expanded {
+  background-color: #000933;
+}
+.navigationDockItemView.selected:not(:hover) {
+  background-color: #162FA2;
+  box-shadow: 0 0 18px #000, 0 0 18px #000;
+}
+.navigationDockItemView-favoriteIcon {
+  fill: #fd9a00;
+}
+.navigationDockItemView-clockIcon {
+  fill: #eee;
+}
+
+/* deeper task rows */
+.grid-compact:not(.itemListView--isCompact).grid-uncompact .task-row .grid-cell,
+.grid-compact:not(.itemListView--isCompact).grid-uncompact .grid_pseudorow_no_prioritized .grid-cell,
+.grid-uncompact:not(.itemListView--isCompact).grid-uncompact .task-row .grid-cell,
+.grid-uncompact:not(.itemListView--isCompact).grid-uncompact .grid_pseudorow_no_prioritized .grid-cell,
+.grid-compact:not(.itemListView--isCompact).grid-uncompact .gridCell-stringContainer, .grid-uncompact:not(.itemListView--isCompact).grid-uncompact .gridCell-stringContainer,
+.grid-compact:not(.itemListView--isCompact).grid-uncompact .grid_cell_string .task-row-text-input, .grid-uncompact:not(.itemListView--isCompact).grid-uncompact .grid_cell_string .task-row-text-input {
+  height: 42px;
+  line-height: 42px;
+}
+.react-mount-node .avatar {
+  vertical-align: middle;
+}
+
+/* task text */
+.grid-uncompact .task-row .grid-cell,
+.grid-uncompact .grid_pseudorow_no_prioritized .grid-cell {
+  font-size: 18px;
+}
+/* task due date */
+.grid-tags-and-date .grid_due_date,
+.grid-compact .grid_due_date:not(.due_soon):not(.overdue),
+.grid-uncompact .grid_due_date:not(.due_soon):not(.overdue) {
+  color: #333;
+  font-size: 14px;
+}
+.grid_due_date.due_soon {
+  color: #000;
+  font-weight: 700;
+}
+.grid_due_date.overdue {
+  color: #f13361;
+  font-weight: 700;
+}

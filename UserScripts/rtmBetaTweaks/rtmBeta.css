@@ -1,0 +1,45 @@
+/* Set the global font */
+*, body { font-family: "Roboto"; font-size: 14px; }
+
+/* revised palette -- set a dark theme in prefs first */
+body {
+	background-color: hsla(216,100%,12%,1) !important;
+}
+
+/* Size up task names */
+.b-db-Lm-Nj { font-size: 16px; color: #000; }
+
+/* Size down tags in task list */
+span.b-db-Lm-o { font-size: 12px; }
+
+/* =======| this broke d-n-d feature |======= */
+/* resize task grid -- div specificity to override defaults */
+  /* task row -- div specificity to override default */
+  /*div.b-db-Lm { position: initial; border: none; padding: 9px 0; }*/
+  /* push empty rows at bottom out of the way */
+  /*div.b-Om-db-Bq { position: relative; display: none; }*/
+
+/* Hide the logo */
+.b-on-no { display: none; }
+
+/* Move the nav column up */
+div.b-Cp-Ej-Dp-Vn {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+
+/* Drop the upgrade call out */
+.b-Cp-go-Rj-Vn { display: none; }
+
+/* Change the priority label colors -- div specificity to override defaults */
+  /* !1 */
+  .b-db-Om-Yq div.b-db-Om-Hn, div.b-Hn.Yq { background-color: #d00; }
+  /* !2 */
+  .b-db-Om-Zq div.b-db-Om-Hn, div.b-Hn.Xq { background-color: #fb0; }
+  /* !3 */
+  .b-db-Om-ar div.b-db-Om-Hn, div.b-Hn.Wq { background-color: #a5c9ff; }
+	/* !4 */
+  div.b-db-Om-Hn, div.b-Hn { background-color: transparent; }

@@ -1,0 +1,15 @@
+body {
+  font-family: "Roboto";
+}
+/* positioning adjustments for my injected logo */
+.aui-header .aui-header-logo img {
+  max-height: 24px;
+  padding: 4px 0;
+}
+
+/* add some room to leave a meaningful comment on page edits */
+#versionComment {
+  width: 600px;
+  max-width: 900px;
+  height: 2.4em;
+}

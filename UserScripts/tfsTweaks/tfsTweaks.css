@@ -1,0 +1,26 @@
+/* Set the global font */
+*, input, button, textarea, select {
+  font-family: "Source Sans Pro";
+  }
+/* adjust view panes */
+.splitter.vertical.right-fix > .rightPane {
+  height: 60%!important;
+  }
+.splitter.vertical.right-fix > .leftPane {
+  bottom: 60%!important;
+  }
+.splitter.vertical.right-fix > .handleBar {
+  bottom: 60%!important;
+  }
+/* make the note editor resizeable */
+.richeditor-container {
+  resize:vertical;
+  overflow:hidden;
+  }
+.richeditor-toolbar {
+  top: 4px !important;
+  border-bottom: 1px solid #ccc;
+  }
+.richeditor-editarea {
+  top: 24px;
+  }

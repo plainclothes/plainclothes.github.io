@@ -1,0 +1,10 @@
+/* reposition note controls at top of editor for narrow view */
+/* left hand controls */
+.GIKW210OHB {
+    float: none;
+  }
+/* right hand controls (push to left so full-screen is avail in narrow window)*/
+.GIKW210IIB {
+    float: left;
+    margin-left: 6px;
+  }

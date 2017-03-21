@@ -1,0 +1,10 @@
+body {
+    background-color: #eee;
+}
+
+img {
+    display: block;
+    margin: 18px auto;
+    position: relative;
+    box-shadow: 0 0 24px rgba(0,0,0,.3);
+}

@@ -1,0 +1,28 @@
+body {
+  font-family: 'Roboto'!important;
+  font-size: 18px;
+}
+body.dark #pomo-start {
+  background-color: #084;
+  border-color: #084;
+  color: #eee;
+  text-shadow: none;
+  font-size: 18px;
+  transition: all ease-in-out 300ms 0s;
+  box-shadow: 0 0 3px rgba(0,170,85,.1);
+/*   box-shadow: 0 0 3px rgba(0,61,31,.1) inset; */
+}
+body.dark #pomo-start:hover {
+  background-color: #0a5;
+  box-shadow: 0 0 12px rgba(0,170,85,1);
+/*   box-shadow: 0 0 12px rgba(0,61,31,1) inset; */
+}
+#todo-new {
+  font-weight: 300;
+}
+body.dark .pomo-header .processbar {
+  background: none no-repeat #800 !important;
+}
+body.dark .pomo-header .processing p { 
+  color: #fff;
+}

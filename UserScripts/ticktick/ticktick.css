@@ -1,0 +1,162 @@
+@media screen {
+  /*
+    ============================================
+    Global
+    ============================================
+  */
+  body,
+  input,
+  textarea.link-editor {
+    font-family: 'Roboto';
+  }
+
+  /*
+    ============================================
+    Left panel
+    ============================================
+  */
+  /* hide redundant list / tag tabs */
+  .lists .l-tabs {
+    display: none;
+  }
+  /* persistent tag display */
+  [class*="l-tab-pane"] {
+    display: block !important;
+  }
+
+  /* hide calendar link (subscription feature) */
+  #project_calendar {
+    display: none;
+  }
+
+  /* distinguish create button under lists */
+  #project-new-button {
+    text-transform: uppercase;
+    opacity: .36;
+    border-top: 1px solid rgba(255,255,255,.3);
+    border-bottom: 1px solid rgba(255,255,255,.3);
+  }
+  #project-new-button:hover {
+    opacity: 1;
+  }
+  /*  more vibrant background  */
+  .dark-theme .g-left {
+    background-color: #000933;
+  }
+  /*  active section  */
+  .lists .active > a {
+    background-color: #00225a;
+    opacity: 1;
+  }
+  .lists .active > a > .count,
+  .lists .active > a > .l-title,
+  .lists .active .inner-date {
+    color: #e0b300;
+    opacity: 1;
+  }
+  .lists .active > a > svg,
+  .active .icons .active-icon {
+    opacity: 1;
+    fill: #e0b300;
+  }
+
+  /*
+    ============================================
+    Task list
+    ============================================
+  */
+  /* increase row height */
+  .task {
+    height: 54px;
+  }
+  .task .t-inner {
+    height: 48px;
+    line-height: 48px;
+  }
+  /* extend task divider to full row width */
+  .task .t-line {
+    margin-left: 0;
+  }
+   /*increase task name size and weight */
+  .task .title {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  /* downplay tags in name */
+  .searchTag {
+    font-weight: 400;
+    color: #83e2af;
+  }
+  .section-header .section-title {
+    font-size: 16px;
+    font-weight: 900;
+    color: #00225a;
+    letter-spacing: .03em;
+    word-spacing: .06em;
+  }
+  .tasks section .section-header {
+    border-top: 2px solid rgba(0,0,0,.1);
+    background-color: none;
+  }
+  .tasks section .hide-section-header {
+    display: none;
+  }
+  /*  drop the bottom rule on the last task in a section  */
+  .task:last-child .t-line.bottom {
+    display: none;
+  }
+
+  /*
+    ============================================
+    Right panel (task detail)
+    ============================================
+  */
+  /* move footer to top */
+  .td-footer {
+    top: 0;
+    border-bottom: 1px solid #ECECEC;
+  }
+  /* move header down */
+  .td-header {
+    padding: 6px 20px;
+    top: 48px;
+    height: 48px;
+  }
+  /* move body down */
+  .td-body {
+    padding-top: 96px;
+    padding-bottom: 24px;
+  }
+  /* change drop _up_ menus to _down_ */
+  .td-footer .dropup {
+    top: 0px;
+    height: auto;
+  }
+  .td-footer .dropup .dropdown-menu {
+    top: 44px;
+    bottom: auto;
+  }
+  /* Seems to only effect the list selector */
+  .menu-ul .dropdown-menu {
+    position: absolute;
+  }
+  /*
+    ============================================
+    Calendar picker
+    ============================================
+  */
+
+  .dark-theme .kalendae.k-pop .k-calendar .k-today:before, 
+  .dark-theme .timecard .kalendae .k-calendar .k-today:before {
+    background-color: hsla(199,96%,92%,1);
+  }
+  .dark-theme .kalendae.k-pop .k-calendar .k-days span.k-selected:before, 
+  .dark-theme .timecard .kalendae .k-calendar .k-days span.k-selected:before {
+    background-color: hsla(199,100%,42%,1);
+    box-shadow: 0 0 6px rgba(0,0,0,0.6);
+  }
+  .dark-theme .kalendae.k-pop .k-calendar .k-days span.k-selected:hover:before, 
+  .dark-theme .timecard .kalendae .k-calendar .k-days span.k-selected:hover:before {
+    background-color: hsla(199,100%,42%,1);
+  }
+}

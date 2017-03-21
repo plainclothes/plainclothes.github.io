@@ -1,0 +1,60 @@
+*,body, h1, h2, h3, .l-subsection h1, .author-meta a {
+  font-family: 'Source Sans Pro'; 
+}
+.article-detail-bl header .l-subsection h1, .author-meta {
+  display: inline-block;
+}
+.article-detail-bl header .l-subsection h1 {
+  margin-bottom: 0;
+}
+.author-meta, .author-meta a {
+  color: #777;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 12px;
+}
+.author-meta {
+  margin-left: 9px;
+}
+.l-navrail {
+  display: none;
+}
+[class*="column"] + [class*="column"]:last-child {
+  float: left;
+}
+li, article.article-detail-bl p {
+  font-size: 16px;
+}
+article.article-detail-bl p {
+  margin: 0 0 18px;
+}
+.topic-links {
+  display: none;
+}
+.fix-article-body-width {
+  width: 72%!important;
+}
+.article-detail-bl .lede {
+  font-size: 16px;
+  padding-left: 0;
+  border-left: none;
+  margin: 0;
+}
+figcaption {
+  font-size: 14px;
+  margin-top: 9px;
+  padding: 6px 0;
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+}
+figcaption em {
+  font-style: normal;
+  line-height: 1.2;
+}
+figure {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+article div.underlinedlink a:link {
+  text-decoration: none;
+}
