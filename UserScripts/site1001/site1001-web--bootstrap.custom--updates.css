@@ -1453,13 +1453,14 @@ tr:hover > td,
 */
 
 
-.map-link > img {
-    height: 100%;
+.map-link > img,
+.map-link-display img {
+    height: 100% !important;
     left: 0px;
     position: absolute;
     top: 0px;
-    width: 100%;
-    display: none; /* <-- change */
+    width: 100% !important;
+    display: none;
 }
 
 .map-link-remove {
@@ -1470,39 +1471,32 @@ tr:hover > td,
     z-index: 2000;
 }
 
-.map-link-edit {
+.map-link-edit,
+.map-link-display {
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
-    background-image: none; /* <-- change */
-    background-color: hsla(206, 78%, 54%, 0.36); /* <-- change */
-    border-radius: 1000px; /* <-- change */
-    border: solid 1px hsla(206, 100%, 36%, 0.6); /* <-- change */
+    background-image: none;
+    background-color: hsla(206, 100%, 54%, 0.48);
+    border-radius: 1000px;
+    border: solid 1px hsla(206, 100%, 36%, 0.8);
     cursor: move;
+}
+
+.map-link-display.map-link-white {
+	background-color: hsla(40, 0%, 66%, .18);
+	border: solid 1px hsla(35, 0%, 60%, .8);
+}
+
+.map-link-display:hover {
+	background-color: hsla(206, 100%, 54%, 0.72);
+}
+
+.map-link-display.map-link-white:hover {
+	background-color: hsla(40, 0%, 96%, .36);
 }
 
 .map-link-display > a {
     display: inline-block;
     height: 100%;
     width: 100%;
-}
-
-.map-link-display img {
-    height: 100% !important;
-    width: 100% !important;
-}
-
-.map-link-white a {
-    background: none;
-    border: 0px solid blue;
-    filter: alpha(opacity=50);
-    opacity: .5;
-    padding: 0px 0px 0px 0px;
-}
-
-.map-link-white a:hover {
-    background: none;
-    border: 0px;
-    cursor: pointer;
-    filter: alpha(opacity=70);
-    opacity: .7;
 }
