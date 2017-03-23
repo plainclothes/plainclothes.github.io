@@ -1,7 +1,26 @@
+.u-cardwallCard {
+  background-color: #fff;
+  border: solid 0px;
+  box-shadow: 0 1px 0 hsla(0,0%,0%,.18);
+  transition: all 180ms ease 0s;
+}
+.u-cardwallCard:hover {
+  background-color: #fff;
+  box-shadow: 0 2px 9px hsla(0,0%,0%,.48);
+}
+.u-cardwallCard.u-card-highest,
+.u-cardwallCard.u-card-highest:hover {
+  background-color: hsl(15, 100%, 89%);
+}
+.u-cardwallCard.u-card-high,
+.u-cardwallCard.u-card-high:hover {
+  background-color: hsl(54, 100%, 89%);
+}
 .u-cardwallCard.u-card-low,
 .u-cardwallCard.u-card-low:hover {
-  background-color: #ddd;
+  background-color: hsla(0, 0%, 96%, .84);
 }
-.u-cardwallCard.u-card-low:hover {
-  border: solid 1px #aaa;
+.u-cardwallCard.u-card-lowest,
+.u-cardwallCard.u-card-lowest:hover {
+  background-color: hsla(0, 0%, 78%, .3);
 }
