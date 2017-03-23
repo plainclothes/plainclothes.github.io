@@ -1,0 +1,7 @@
+.u-cardwallCard.u-card-low,
+.u-cardwallCard.u-card-low:hover {
+  background-color: #ddd;
+}
+.u-cardwallCard.u-card-low:hover {
+  border: solid 1px #aaa;
+}
