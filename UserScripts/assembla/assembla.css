@@ -1,3 +1,14 @@
+body {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #000;
+}
+
+/* 
+  ============================================================
+  Cardwall 
+  ============================================================
+*/
 .u-cardwallCard {
   background-color: #fff;
   border: solid 0px;
@@ -23,4 +34,47 @@
 .u-cardwallCard.u-card-lowest,
 .u-cardwallCard.u-card-lowest:hover {
   background-color: hsla(0, 0%, 78%, .3);
+}
+
+/* 
+  ============================================================
+  Ticket details
+  ============================================================
+*/
+
+/* ticket metadata sidebar */
+.fields-box {
+  padding-top: 4px;
+}
+.fields-box .fields-item {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+.fields-box .fields-item:last-child {
+  border-bottom: solid 0px
+}
+.fields-box .fields-item.is-readonly,
+.fields-box .fields-item.is-readonly .fields-item-value {
+  background-color: initial;
+}
+.fields-box {
+  font-size: 14px;
+  line-height: 14px;
+}
+.fields-box .fields-item .fields-item-label {
+  font-size: 11px;
+  line-height: 11px;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  width: auto;
+}
+.fields-box .fields-item .fields-item-value {
+  width: auto;
+  margin: 0 0 0 120px;
+}
+
+/* change log */
+.activity .fs-xxs {
+  font-size: 14px;
+  padding: 6px;
 }
