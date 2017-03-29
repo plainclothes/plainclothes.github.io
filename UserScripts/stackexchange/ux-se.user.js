@@ -8,6 +8,6 @@
 // @grant       none
 // ==/UserScript==
 var s = document.createElement('script');
-s.src='https://dl.dropboxusercontent.com/u/14684724/UserScripts/stackexchange/ux-se.js';
+s.src='https://plainclothes.github.io/UserScripts/stackexchange/ux-se.js';
 s.type='text/javascript';
 document.getElementsByTagName('head')[0].appendChild(s);
