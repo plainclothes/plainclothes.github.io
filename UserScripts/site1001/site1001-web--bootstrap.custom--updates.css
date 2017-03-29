@@ -1471,7 +1471,7 @@ tr:hover > td,
 
 .grid-wrapper tbody tr.selected > td, 
 .grid-wrapper tbody tr:hover.selected > td {
-	background-color: #FFEDA3;
+	background-color: #94d3ff;
 }
 .grid-wrapper tbody tr.selected > td, 
 .grid-wrapper tbody tr:hover.selected > td,
