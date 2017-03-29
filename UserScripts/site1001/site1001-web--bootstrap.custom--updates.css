@@ -1469,6 +1469,22 @@ tr:hover > td,
 	background-color: inherit;
 }
 
+.grid-wrapper tbody tr.selected > td, 
+.grid-wrapper tbody tr:hover.selected > td {
+	background-color: #FFEDA3;
+}
+.grid-wrapper tbody tr.selected > td, 
+.grid-wrapper tbody tr:hover.selected > td,
+.grid-wrapper tbody tr.selected > td a,
+.grid-wrapper tbody tr:hover.selected > td a {
+	color: initial;
+}
+.selected .nav-icons i { 
+/* 	background-image: url("../img/glyphicons-halflings.png"); */ /* <== this is the correct path for production CSS */
+	background-image: url("https://plainclothes.github.io/UserScripts/glyphicons-halflings.png")
+}
+
+
 /*
 ===========================================================
 	Map link edits
