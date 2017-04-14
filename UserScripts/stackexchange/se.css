@@ -78,7 +78,7 @@ body {
   padding-bottom: 6px;
 }
 .summary h3 a:after {
-  content: " →";
+  content: " â†’";
   opacity: 0;
   color: #fff;
   transition: all ease-in-out 180ms;
@@ -101,8 +101,9 @@ body {
 /* fade back the question stats until hover or keyboard focus */
 .question-summary .cp,
 .question-summary .tags,
-.question-summary .started {
-  opacity: .42;
+.question-summary .started,
+.statscontainer {
+  opacity: .3;
   transition: all 240ms ease-in-out;
 }
 .question-summary:hover .cp,
@@ -110,7 +111,9 @@ body {
 .question-summary:hover .tags,
 .question-summary.keyboard-selected .tags,
 .question-summary:hover .started,
-.question-summary.keyboard-selected .started {
+.question-summary.keyboard-selected .started,
+.question-summary:hover .statscontainer,
+.question-summary.keyboard-selected  .statscontainer {
   opacity: 1;
 }
 
