@@ -78,7 +78,7 @@ body {
   padding-bottom: 6px;
 }
 .summary h3 a:after {
-  content: " â†’";
+  content: " →";
   opacity: 0;
   color: #fff;
   transition: all ease-in-out 180ms;
