@@ -1,6 +1,21 @@
 .plr-m.width-30 {
-  display: none;
+  display: none !important;
 }
 .plr-m.width-70 {
   width: 100%;
+}
+.plr-sm.bc-gray--4,
+.navigation-wrapper,
+ul.menu-submenu,
+.u-row.mnlr-l.mb-l {
+  display: none;
+}
+.u-tabs .tabs-list .tabs-item .tabs-item-link {
+  padding-left: 6px;
+  padding-right: 6px;
+  line-height: 30px;
+  opacity: .36;;
+}
+.u-tabs .tabs-list .tabs-item[class*="is-active"] .tabs-item-link {
+  opacity: 1;
 }
