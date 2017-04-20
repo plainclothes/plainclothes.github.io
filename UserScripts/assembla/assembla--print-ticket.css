@@ -7,7 +7,8 @@
 .plr-sm.bc-gray--4,
 .navigation-wrapper,
 ul.menu-submenu,
-.u-row.mnlr-l.mb-l {
+.u-row.mnlr-l.mb-l,
+#footer-w {
   display: none;
 }
 .u-tabs .tabs-list .tabs-item .tabs-item-link {
