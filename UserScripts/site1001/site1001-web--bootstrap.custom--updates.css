@@ -838,6 +838,8 @@ button {
 .btn-primary.active, .btn-warning.active, .btn-danger.active, .btn-success.active, .btn-info.active, .btn-inverse.active {
 	color: rgba(255, 255, 255, 0.75);
 }
+
+/* ==== standard ==== */
 .btn {
 	color: #000;
 	background: #f7f7f7 none;
@@ -903,25 +905,25 @@ button {
 
 /* ==== warning ==== */
 .btn-warning,
-.btn-warning:hover, 
-.btn-warning:focus, 
-.btn-warning:active, 
-.btn-warning.active, 
-.btn-warning.disabled, 
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.btn-warning.disabled,
 .btn-warning[disabled] {
 	background-color: #f56e00;
 	color: #ffffff;
 	border-color: #f56e00;
 }
-.btn-warning:hover, 
+.btn-warning:hover,
 .btn-warning:focus,
-.btn-warning:active, 
-.btn-warning.active, 
-.btn-warning.disabled, 
+.btn-warning:active,
+.btn-warning.active,
+.btn-warning.disabled,
 .btn-warning[disabled] {
 	background-color: #FF8B38;
 }
-.btn-warning:active, 
+.btn-warning:active,
 .btn-warning.active {
 	box-shadow: inset 0 0 6px rgba(0,0,0,.24);
 }
@@ -938,11 +940,11 @@ button {
 	color: #ffffff;
 	border-color: #D70000;
 }
-.btn-danger:hover, 
+.btn-danger:hover,
 .btn-danger:focus,
-.btn-danger:active, 
-.btn-danger.active, 
-.btn-danger.disabled, 
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
 .btn-danger[disabled] {
 	background-color: #F51F1F;
 }
@@ -953,13 +955,13 @@ button {
 	color: #ffffff;
 	border-color: #28B81B;
 }
-.btn-success:hover, 
+.btn-success:hover,
 .btn-success:focus,
 .btn-success:active,
 .btn-success.active {
 	background: #3dc431;
 }
-.btn-success:active, 
+.btn-success:active,
 .btn-success.active {
 	box-shadow: inset 0 0 6px rgba(0,0,0,.24);
 	color: #fff;
@@ -1469,17 +1471,17 @@ tr:hover > td,
 	background-color: inherit;
 }
 
-.grid-wrapper tbody tr.selected > td, 
+.grid-wrapper tbody tr.selected > td,
 .grid-wrapper tbody tr:hover.selected > td {
 	background-color: #94d3ff;
 }
-.grid-wrapper tbody tr.selected > td, 
+.grid-wrapper tbody tr.selected > td,
 .grid-wrapper tbody tr:hover.selected > td,
 .grid-wrapper tbody tr.selected > td a,
 .grid-wrapper tbody tr:hover.selected > td a {
 	color: initial;
 }
-.selected .nav-icons i { 
+.selected .nav-icons i {
 /* 	background-image: url("../img/glyphicons-halflings.png"); */ /* <== this is the correct path for production CSS */
 	background-image: url("https://plainclothes.github.io/UserScripts/glyphicons-halflings.png")
 }
