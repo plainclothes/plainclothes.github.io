@@ -1,0 +1,9 @@
+#icons .fa {
+  font-size: 36px;
+  line-height: 1.6;
+}
+.fontawesome-icon-list .fa-hover a {
+    overflow: hidden;
+    line-height: 60px;
+    height: 60px;
+}
