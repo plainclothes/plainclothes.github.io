@@ -1,5 +1,6 @@
 #icons .fa,
-#search-results .fa {
+#search-results .fa,
+.row .fa {
   font-size: 36px;
   line-height: 1.6;
 }
