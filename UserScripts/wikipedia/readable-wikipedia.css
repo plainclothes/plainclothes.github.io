@@ -1,0 +1,9 @@
+/* Wikipedia readability fix */
+body {
+    font-family: 'Source Sans Pro', Roboto;
+    font-size: 18px;
+}
+.mw-body-content {
+    line-height: 1.8;
+    font-size: 1em;
+}
