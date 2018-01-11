@@ -6,7 +6,7 @@
 
 body {
   background: none #f9f9f9;
-  box-shadow: 0 90px 0 hsla(207, 119%, 30%, 1) inset;
+  box-shadow: 0 108px 0 hsla(207, 119%, 30%, 1) inset;
 }
 
 .topbar .topbar-links .topbar-menu-links a,
@@ -26,7 +26,7 @@ body {
 }
 
 #hlogo a {
-  top: 1px;
+  top: -15px;
   width: auto;
   background: none;
   text-indent: 0;
