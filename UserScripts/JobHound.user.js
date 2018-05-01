@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Clean up JobHound UI
 // @author       David Holman
-// @match        https://jobhound.io/
+// @match        https://jobhound.io/*
 // @grant        none
 // ==/UserScript==
 
